@@ -1,0 +1,31 @@
+[b]Version:[/b] v0.1.0 (Target: RimWorld 1.6)
+
+[img]https://i.imgur.com/vsQezpQ.png[/img]
+
+[h1]Regions and Societies: Vanilla Factions Expanded Patch[/h1]
+Compatibility patch: world objects from the Vanilla Factions Expanded family are classified under [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3784666060]Regions and Societies[/url] territory rules.
+
+[h2]What it does[/h2]
+[list]
+[*] [b]One typed rule for the family:[/b] every VFE moving base (VFE Core's MovingBase and its subclasses, including VFE Medieval 2's Merchant Guild) is recognised as a caravan rather than a territorial holding.
+[*] [b]Moving bases are caravans:[/b] a VFE base rolling across the world map neither claims nor holds ground.
+[*] [b]Nothing else to patch:[/b] the other VFE faction modules use vanilla settlements with modded defs, already governed by Regions and Societies core.
+[/list]
+
+The patch binds the 1.6 VEF assembly directly, so framework drift is a compile error rather than a silent misclassification. No settings of its own - installed means enabled.
+
+[h2]Changelog (v0.1.0)[/h2]
+[list]
+[*] Initial release: VFE integration extracted from Regions and Societies core into a typed compatibility patch binding the VEF assembly directly.
+[/list]
+
+[h2]Requirements[/h2]
+[list]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3784666060]Regions and Societies[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013]Vanilla Expanded Framework[/url]
+[/list]
+
+[h2]Source Code and Support[/h2]
+GitHub: [url]https://github.com/Regions-and-societies/VFE-CP[/url]
+Licence: [url=https://polyformproject.org/licenses/noncommercial/1.0.0/]PolyForm Noncommercial License 1.0.0[/url]
+Support development: [url]https://ko-fi.com/archdukejim[/url]

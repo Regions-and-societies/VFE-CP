@@ -24,7 +24,20 @@
         <li>RegionsAndSocieties.Core</li>
         <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
     </loadAfter>
-    <description>Compatibility patch: world objects from the Vanilla Factions Expanded family are classified under Regions and Societies territory rules.
+    <description>Version: v0.1.0
 
-One typed check covers the whole family: every VFE moving base (VFE Core's MovingBase and its subclasses, including VFE Medieval 2's Merchant Guild) is recognised as a caravan rather than a territorial holding. The other VFE faction modules ship no world objects of their own — their faction bases are vanilla settlements, already governed. Requires Regions and Societies and the Vanilla Expanded Framework.</description>
+Compatibility patch: world objects from the Vanilla Factions Expanded family are classified under Regions and Societies territory rules.
+
+Features:
+- One typed rule covers the whole family: every VFE moving base (VFE Core's MovingBase and its subclasses, including VFE Medieval 2's Merchant Guild) is recognised as a caravan rather than a territorial holding.
+- Moving bases neither claim nor hold ground as they cross the world map.
+- The other VFE faction modules ship no world objects of their own - their faction bases are vanilla settlements, already governed by Regions and Societies core.
+
+Requires: Regions and Societies and the Vanilla Expanded Framework. No settings of its own - governance toggles live in Regions and Societies.
+
+--- Changelog (v0.1.0) ---
+- Initial release: VFE integration extracted from Regions and Societies core into a typed compatibility patch binding the VEF assembly directly.
+
+Source: https://github.com/Regions-and-societies/VFE-CP
+Support development: https://ko-fi.com/archdukejim</description>
 </ModMetaData>
